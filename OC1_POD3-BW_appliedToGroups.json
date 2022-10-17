@@ -1,0 +1,280 @@
+{
+  "resource_type": "Infra",
+  "children": [
+    {
+      "resource_type": "ChildResourceReference",
+      "id": "default",
+      "target_type": "Domain",
+      "children": [
+        {
+          "resource_type": "ChildGroup",
+          "marked_for_delete": "false",
+          "Group": {
+            "resource_type": "Group",
+            "display_name": "Origin_OC2_01_A",
+            "marked_for_delete": false,
+            "expression": [
+              {
+                "resource_type": "IPAddressExpression",
+                "marked_for_delete": false,
+                "ip_addresses": [
+                  "0.0.0.0/1",
+                  "128.0.0.0/1"
+                ]
+              }
+            ],
+            "id": "Origin_OC2_01_A",
+            "tags": [
+              {
+                "tag": "OC2",
+                "scope": "migration"
+              },
+              {
+                "tag": "2022-08-08",
+                "scope": "migration"
+              }
+            ]
+          }
+        },
+        {
+          "resource_type": "ChildGroup",
+          "marked_for_delete": "false",
+          "Group": {
+            "resource_type": "Group",
+            "display_name": "Origin_OC2_01_B",
+            "marked_for_delete": false,
+            "expression": [
+              {
+                "resource_type": "IPAddressExpression",
+                "marked_for_delete": false,
+                "ip_addresses": [
+                  "0.0.0.0/1",
+                  "128.0.0.0/1"
+                ]
+              }],
+            "id": "Origin_OC2_01_B",
+            "tags": [
+              {
+                "tag": "OC2",
+                "scope": "migration"
+              },
+              {
+                "tag": "2022-08-08",
+                "scope": "migration"
+              }
+            ]
+          }
+        },
+        {
+          "resource_type": "ChildGroup",
+          "marked_for_delete": "false",
+          "Group": {
+            "resource_type": "Group",
+            "display_name": "Origin_OC2_01_C",
+            "marked_for_delete": false,
+            "expression": [
+              {
+                "resource_type": "IPAddressExpression",
+                "marked_for_delete": false,
+                "ip_addresses": [
+                  "0.0.0.0/1",
+                  "128.0.0.0/1"
+                ]
+              }
+            ],
+            "id": "Origin_OC2_01_C",
+            "tags": [
+              {
+                "tag": "OC2",
+                "scope": "migration"
+              },
+              {
+                "tag": "2022-08-08",
+                "scope": "migration"
+              }
+            ]
+          }
+        },
+        {
+          "resource_type": "ChildGroup",
+          "marked_for_delete": "false",
+          "Group": {
+            "resource_type": "Group",
+            "display_name": "Origin_OC2_02_A",
+            "marked_for_delete": false,
+            "expression": [
+              {
+                "resource_type": "IPAddressExpression",
+                "marked_for_delete": false,
+                "ip_addresses": [
+                  "0.0.0.0/1",
+                  "128.0.0.0/1"
+                ]
+              }
+            ],
+            "id": "Origin_OC2_02_A",
+            "tags": [
+              {
+                "tag": "OC2",
+                "scope": "migration"
+              },
+              {
+                "tag": "2022-08-08",
+                "scope": "migration"
+              }
+            ]
+          }
+        },
+        {
+          "resource_type": "ChildGroup",
+          "marked_for_delete": "false",
+          "Group": {
+            "resource_type": "Group",
+            "display_name": "Origin_OC2_02_B",
+            "marked_for_delete": false,
+            "expression": [
+              {
+                "resource_type": "IPAddressExpression",
+                "marked_for_delete": false,
+                "ip_addresses": [
+                  "0.0.0.0/1",
+                  "128.0.0.0/1"
+                ]
+              }
+            ],
+            "id": "Origin_OC2_02_B",
+            "tags": [
+              {
+                "tag": "OC2",
+                "scope": "migration"
+              },
+              {
+                "tag": "2022-08-08",
+                "scope": "migration"
+              }
+            ]
+          }
+        },
+        {
+          "resource_type": "ChildGroup",
+          "marked_for_delete": "false",
+          "Group": {
+            "resource_type": "Group",
+            "display_name": "Origin_OC2_02_C",
+            "marked_for_delete": false,
+            "expression": [
+              {
+                "resource_type": "IPAddressExpression",
+                "marked_for_delete": false,
+                "ip_addresses": [
+                  "0.0.0.0/1",
+                  "128.0.0.0/1"
+                ]
+              }
+            ],
+            "id": "Origin_OC2_02_C",
+            "tags": [
+              {
+                "tag": "OC2",
+                "scope": "migration"
+              },
+              {
+                "tag": "2022-08-08",
+                "scope": "migration"
+              }
+            ]
+          }
+        },
+        {
+          "resource_type": "ChildGroup",
+          "marked_for_delete": "false",
+          "Group": {
+            "resource_type": "Group",
+            "display_name": "Origin_OC2_03_A",
+            "marked_for_delete": false,
+            "expression": [
+              {
+                "resource_type": "IPAddressExpression",
+                "marked_for_delete": false,
+                "ip_addresses": [
+                  "0.0.0.0/1",
+                  "128.0.0.0/1"
+                ]
+              }
+            ],
+            "id": "Origin_OC2_03_A",
+            "tags": [
+              {
+                "tag": "OC2",
+                "scope": "migration"
+              },
+              {
+                "tag": "2022-08-08",
+                "scope": "migration"
+              }
+            ]
+          }
+        },
+        {
+          "resource_type": "ChildGroup",
+          "marked_for_delete": "false",
+          "Group": {
+            "resource_type": "Group",
+            "display_name": "Origin_OC2_03_B",
+            "marked_for_delete": false,
+            "expression": [
+              {
+                "resource_type": "IPAddressExpression",
+                "marked_for_delete": false,
+                "ip_addresses": [
+                  "0.0.0.0/1",
+                  "128.0.0.0/1"
+                ]
+              }],
+            "id": "Origin_OC2_03_B",
+            "tags": [
+              {
+                "tag": "OC2",
+                "scope": "migration"
+              },
+              {
+                "tag": "2022-08-08",
+                "scope": "migration"
+              }
+            ]
+          }
+        },
+        {
+          "resource_type": "ChildGroup",
+          "marked_for_delete": "false",
+          "Group": {
+            "resource_type": "Group",
+            "display_name": "Origin_OC2_03_C",
+            "marked_for_delete": false,
+            "expression": [
+              {
+                "resource_type": "IPAddressExpression",
+                "marked_for_delete": false,
+                "ip_addresses": [
+                  "0.0.0.0/1",
+                  "128.0.0.0/1"
+                ]
+              }
+            ],
+            "id": "Origin_OC2_03_C",
+            "tags": [
+              {
+                "tag": "OC2",
+                "scope": "migration"
+              },
+              {
+                "tag": "2022-08-08",
+                "scope": "migration"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
